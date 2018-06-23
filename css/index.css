@@ -1,0 +1,144 @@
+body{
+	background-image: url("../img/fondo.jpg");
+	background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
+  margin-left: auto;
+  margin-right: auto;
+	margin: 1.5rem;
+}
+
+.logo{
+	width: 80%
+	height:auto;
+}
+
+.colRedes{
+background:;
+
+
+}
+
+.colRed{
+	background: ;
+	text-align: center;
+	border-radius: 1rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+
+
+.redes{
+	margin-top: 1rem;
+}
+
+.fa{
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	width: 100%;
+}
+
+.facebook{
+	color: #334c8c;
+}
+
+.facebook:hover{
+	background:  #334c8c;
+	color:#fff;
+}
+
+.twitter{
+	color: #0098db;
+
+}
+.twitter:hover{
+	background:  #0098db;
+	color:#fff;
+}
+
+.linkedin{
+	color: #069;
+
+}
+.linkedin:hover{
+	background:  #069;
+	color:#fff;
+}
+
+.gplus{
+	color: #cb4125;
+
+}
+.gplus:hover{
+	background: #cb4125;
+	color:#fff;
+}
+
+.imgcenter{
+	height: auto%;
+	width: 100%;
+}
+
+.imgLeft{
+	height: auto;
+	width: 100%;
+}
+
+.colPublic{
+	padding: 1rem;
+}
+.public{
+	float: left;
+	margin: 1rem;
+}
+
+.contenidoNoticias .cuerpoNoticia #redesArticulo ul{padding:0;margin:0;list-style:none;}
+.contenidoNoticias .cuerpoNoticia #redesArticulo ul li{width:50px;height:50px;padding:0;margin:0;text-align:center;}
+.contenidoNoticias .cuerpoNoticia #redesArticulo ul li a{color:#5c5c5c;transition: all 0.2s ease-out;display:block;width:50px;height:20px;}
+.contenidoNoticias .cuerpoNoticia #redesArticulo ul li a .fa{text-align:center;line-height:50px;}
+.contenidoNoticias .cuerpoNoticia #redesArticulo ul li a .fa-whatsapp{font-size:1.2em;}
+.contenidoNoticias .cuerpoNoticia #redesArticulo ul li a:hover{color:#fff;}
+.contenidoNoticias .cuerpoNoticia #redesArticulo ul li a.facebook:hover{background:#334c8c;}
+.contenidoNoticias .cuerpoNoticia #redesArticulo ul li a.twitter:hover{background:#0098db;}
+.contenidoNoticias .cuerpoNoticia #redesArticulo ul li a.gplus:hover{background:#cb4125;}
+.contenidoNoticias .cuerpoNoticia #redesArticulo ul li a.whatsapp:hover{background:#41ce6b;}
+.contenidoNoticias .cuerpoNoticia #redesArticulo ul li a.linkedin:hover{background:#069;}
+.contenidoNoticias .cuerpoNoticia #redesArticulo ul li a.email:hover{background:#ccc;}
+
+
+.social{
+	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+	left: 0; /* Establecemos la barra en la izquierda */
+	top: 35em; /* Bajamos la barra 200px de arriba a abajo */
+	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+
+	.social ul {
+		list-style: none;
+	}
+
+	.social ul li a {
+		display: inline-block;
+		color:#fff;
+		background: #000;
+		padding: 10px 15px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+	}
+
+	.redes ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+	.social ul li .icon-twitter {background: #00abf0;}
+	.social ul li .icon-googleplus {background: #d95232;}
+	.social ul li .icon-pinterest {background: #ae181f;}
+	.social ul li .icon-mail {background: #666666;}
+
+	.redes ul li a:hover {
+		background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
+		padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+	}
